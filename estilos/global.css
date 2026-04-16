@@ -1,0 +1,33 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+}
+main h1,
+h2 {
+  color: #9a6227;
+}
+
+/* Estilos para a tabela de preços */
+#precos {
+  border-collapse: collapse;
+}
+#precos th,
+#precos td {
+  border: 1px solid #000;
+  padding: 4px;
+  text-align: center;
+}
+#precos thead th {
+  background-color: #e5e7eb;
+  text-align: center;
+  font-weight: bold;
+}
+#precos tbody th,
+#precos tbody td {
+  text-align: center;
+  vertical-align: middle;
+}
+#precos tfoot td {
+  background-color: #e5e7eb;
+  text-align: left;
+}

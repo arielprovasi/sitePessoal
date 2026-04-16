@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background-color: #ddd;
+}
+
+body > header {
+  background-color: #fff;
+  font-family: system-ui, sans-serif;
+}
+
+main {
+  max-width: 50rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  color: #444;
+  line-height: 1.5;
+}
+
+main article {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+article header h1 {
+  margin: 0.5rem 0 0;
+  color: #db8102;
+  font-size: 2rem;
+}
+
+section header {
+  font-size: 30px;
+  font-weight: bold;
+  color: #db8102;
+  line-height: 2.5;
+}
+
+section header h2 {
+  margin: 0;
+  font: inherit;
+}
